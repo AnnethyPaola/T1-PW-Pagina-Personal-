@@ -1,0 +1,89 @@
+.{
+	margin : 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+	background: url('img/mg.jpg') no-repeat;
+	background-size: cover;
+    font-family: 'Century Gothic' , sans-serif;
+}
+
+.caja{
+
+	width: 550px;
+	background: rgba( 0, 0, 0, .4);
+	margin: 0 auto;
+	margin-top: 10%;
+	padding: 80px;
+	color: white;
+	text-align: center;
+	border-radius: 15px;
+}
+
+
+.box-img {
+
+	border-radius: 500%;
+}
+
+
+.caja h1 {
+	font-size: 40px;
+	letter-spacing: 4px;
+	font-weight: 100;
+	margin: 30px 0 20px;
+}
+
+.caja h2 {
+ font-size:20px ;
+ letter-spacing: 3px ;
+ font-weight: 100px;
+ margin-bottom: 20px;
+}
+
+.caja h3 {
+
+	text-align: center;
+
+}
+
+
+.caja ul {
+	list-style: none;
+	margin-top: 20px;
+}
+
+.caja ul li {
+
+	display: inline-block;
+}
+
+.caja ul li a {
+
+	color: white;
+	font-size: 45px;
+	padding: 10px 5px ;
+	display: block;
+	transition: all 0.5s ease-in-out;
+}
+
+.caja ul li a:hover {
+   color: #b9b9b9;
+   transform: scale(1.1);
+
+}
+
+.caja2{
+
+	width: 550px;
+	background: rgba( 0, 0, 0, .2);
+	margin: 0 auto;
+	margin-top: 2%;
+	padding: 90px;
+	color: white;
+	text-align: center;
+	border-radius: 15px;
+}
